@@ -1,17 +1,17 @@
 
 
 .titel{font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        Font-size: 30px; color:white;
-        background-color:darkred;
-        padding: 20px;
-    }
+    Font-size: 30px; color:white;
+    background-color:darkred;
+    padding: 20px;
+}
 
 
 
 .wrapper{
- display:grid;
- grid-template-columns: 230px 1fr 1fr;
- grid-auto-rows:  230px
+display:grid;
+grid-template-columns: 230px 1fr 1fr;
+grid-auto-rows:  230px
 }
 
 
@@ -33,30 +33,30 @@ text-overflow: ellipsis;}
 
 
 .first{
-    font-weight: bold; 
-    color:red;
+font-weight: bold; 
+color:red;
 }
 
 .first2{
-    font-weight: bold; 
-    color:red;
+font-weight: bold; 
+color:red;
 }
 
 
 
 a:link{text-decoration:none; color: red;}
 a:hover{color:red;
-    font-size: 20px;
-    
+font-size: 20px;
+
 }
 a:visited{text-decoration:none; color: red;}
 
 /* .kopje{text-decoration:none; 
-    padding: 3px;
-    color:green;}
+padding: 3px;
+color:green;}
 .kopje2{text-decoration:none; 
-    
-    color:blue;}  */
+
+color:blue;}  */
 
 /* .kopje2:hover{color:white} */
 
