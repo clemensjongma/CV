@@ -31,6 +31,9 @@ color: white;
 overflow: hidden;
 text-overflow: ellipsis;}
 
+.center{
+text-align: center
+}
 
 .first{
     font-weight: bold; 
@@ -41,7 +44,15 @@ text-overflow: ellipsis;}
     font-weight: bold; 
     color:red;
 }
+.button{
+float:right;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        Font-size: 15px; color:#eee;
+        background-color:darkred;
+       
+        margin-top: 10px;
 
+}
 
 
 a:link{text-decoration:none; color: red;}

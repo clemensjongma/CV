@@ -1,17 +1,30 @@
 <!doctype=HTML>
 <html>
+
+
 <head>
 <Title>CV Clemens Jongma</Title>
-<link rel="stylesheet" type="text/css" href="stylesheet.css">
+<link id="pagestyle" rel="stylesheet" type="text/css" href="stylesheet.css">
 <meta charset="utf-8"/>
+<script type='text/JavaScript'>
+    function getStylesheet(sheet) {
+     document.getElementById('pagestyle').setAttribute('href',sheet);      
+          
+    }
+    
+    </script>
 
 </head>
+
+
 <body>
       
 <header>
             <div class="titel">
             <A HREF="mailto:info@jongmac.nl">Clemens Jongma</A>
-            </div>  
+            <a href="https://www.linkedin.com/in/clemens-jongma/"><button class="button">Naar LinkedIn</button></a>
+            <button class="button" onclick="getStylesheet('anotherstylesheet.css')">Printvriendelijke versie</button>
+            <button class="button" onclick="getStylesheet('stylesheet.css')">Designvriendelijke versie</button></div>  
 </header> 
 
 <div class="wrapper">
@@ -114,6 +127,7 @@
 
 <footer>
 <div class= "titel"><A HREF="mailto:info@jongmac.nl">Klik hier om mij te mailen</A></class>
+
 </footer>
 </body>
 </html>
